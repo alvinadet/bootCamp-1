@@ -1,121 +1,42 @@
-body {
+* {
     margin: 0;
     padding: 0;
-    
 }
 
-.bg-warning {
-    background-color: #F4D430 !important;
+.font{
+    font-family: 'Acme', sans-serif;
 }
-.text-black {
-    color: black !important;
-}
-.navbar-brand {
-    font-size: 2rem !important;
-}
-.navbar-brand:hover {
-    color: white !important;
-
-}
-.hovernav:hover {
-    border: 2px solid white;
-
-}
-.border {
-    border: 2px solid white !important;
+body {
+    background: url(https://images.pexels.com/photos/210661/pexels-photo-210661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    font-family: 'Acme', sans-serif;
 }
 
-.c-center {
+.center {
     text-align: center;
 }
 
-.c-icon {
-    max-width: 100px;
+
+.box {
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    padding-top: 20px;
+    max-width: 900px;
+}
+
+.form-control-1 {
+    background-color: #fff0 !important;
+    border: 0 !important;
+    border-bottom: 2px solid #fff !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+}
+
+.list-group {
+    color: #fff;
+    font-size: 2rem;
+}
+.checkbox {
+    width: 5rem;
     height: auto;
-}
-
-
-/* Parallax */
-.parallax{
-    height: 100vh;
-    max-width: 100%;
-    background: url(https://i.imgur.com/NnHn5XX.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    color: white;
-
-}
-
-.parallax-caption {
-    margin: 0px;
-    font-weight: bold;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 18rem;
-    font-family: 'Acme', sans-serif;
-}
-
-
-/* End Off Parallax */
-
-.c-title {
-    color: #215e7f;
-    font-family: 'Acme', sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-    text-decoration:underline;
-}
-
-.c-content {
-    line-height: 2rem;
-    font-size: 1.2rem;
-    text-align: justify;
-}
-
-/* Grid Image */
-.image {
-        width: 100%;
-        height: 100%;
-}
-
-
-.c-button-wrap{
-    text-align: center;
-    max-width: 100%;
-    position: relative;
-}
-.btn-primary {
-    background-color: #215e7f !important;
-    border: #215e7f;
-}
-.c-button-wrap::before {
-    /* width: 100%;
-    height: 2px;
-    background-color: #215e7f;
-    content: "" */
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    z-index: -1;
-    margin-top: -1px;
-    background-color: #215e7f;
-    width: 100%;
-    height: 2px;
-    content: "";
-}
-
-.footer {
-    background-color: #e94a4f;
-    text-align: justify;
-}
-
-.contact-info {
-    text-decoration: none;
-    color: white;
-}
-
-.contact-info:hover {
-    color: #F4D430;
 }
